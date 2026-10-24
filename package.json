@@ -1,0 +1,17 @@
+{
+  "name": "libpdf-content-stream-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproduction: LibPDF high-level drawing creates one content stream per call",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@libpdf/core": "0.5.3",
+    "pdf-lib": "1.17.1"
+  }
+}
