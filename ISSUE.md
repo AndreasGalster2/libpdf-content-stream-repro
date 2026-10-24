@@ -1,5 +1,3 @@
-# High-level drawing creates one content stream per call, inflating output (100 draws: 24 KB vs 1.5 KB batched)
-
 ## Summary
 
 Each high-level drawing call (`drawText`, `drawRectangle`, `drawLine`, etc.) creates a new content
@@ -27,7 +25,7 @@ The rendered page is pixel-identical in all three variants (QuickLook PNG SHA-25
 
 ## Reproduction
 
-Repo: `<repro link>`
+Repo: https://github.com/AndreasGalster2/libpdf-content-stream-repro
 
 ```bash
 npm install
